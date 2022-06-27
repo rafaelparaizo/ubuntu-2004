@@ -344,35 +344,35 @@ sleep 5
 echo -e "Editando o arquivo de configuração asterisk, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/default/asterisk
+	nano /etc/default/asterisk
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração asterisk.conf, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/asterisk/asterisk.conf
+	nano /etc/asterisk/asterisk.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração modules.conf, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/asterisk/modules.conf
+	nano /etc/asterisk/modules.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração sip.conf, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/asterisk/sip.conf
+	nano /etc/asterisk/sip.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração extensions.conf, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/asterisk/extensions.conf
+	nano /etc/asterisk/extensions.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

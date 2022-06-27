@@ -246,21 +246,21 @@ sleep 5
 echo -e "Editando o arquivo de configuração do glpi.conf, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/apache2/conf-available/glpi9.conf
+	nano /etc/apache2/conf-available/glpi9.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de Virtual Host glpi.conf, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/apache2/sites-available/glpi9.conf
+	nano /etc/apache2/sites-available/glpi9.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de agendamento glpi-cron, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/cron.d/glpi9-cron
+	nano /etc/cron.d/glpi9-cron
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

@@ -233,7 +233,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração webdav.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/apache2/sites-available/webdav.conf
+	nano /etc/apache2/sites-available/webdav.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

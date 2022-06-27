@@ -14,13 +14,13 @@
 # Testado e homologado para a versão do Asterisk v19.1.x
 #
 # Editando o arquivo de configuração dos módulos modules.conf
-vim /etc/asterisk/modules.conf
+nano /etc/asterisk/modules.conf
 #
 # Editando o arquivo de configuração dos ramais sip.conf
-vim /etc/asterisk/sip.conf
+nano /etc/asterisk/sip.conf
 #
 # Editando o arquivo de configuração dos planos de discagens extensões extensions.conf
-vim /etc/asterisk/extensions.conf
+nano /etc/asterisk/extensions.conf
 #
 # Reinicializando o serviço do Asterisk
 sudo systemctl restart asterisk.service

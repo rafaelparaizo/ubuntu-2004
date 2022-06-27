@@ -227,7 +227,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração named.conf.local, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/bind/named.conf.local
+	nano /etc/bind/named.conf.local
 	named-checkconf /etc/bind/named.conf.local &>> $LOG
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
@@ -235,7 +235,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração rndc.key, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/bind/rndc.key
+	nano /etc/bind/rndc.key
 	named-checkconf /etc/bind/rndc.key &>> $LOG
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
@@ -245,7 +245,7 @@ echo -e "Editando o arquivo de configuração dhcpd.conf, pressione <Enter> para
 	# opção do comando read: -s (Do not echo keystrokes)
 	# opção do comando dhcpd: -t (test the configuration file)
 	read -s
-	vim /etc/dhcp/dhcpd.conf
+	nano /etc/dhcp/dhcpd.conf
 	dhcpd -t &>> $LOG
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5

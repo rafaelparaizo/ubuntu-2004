@@ -267,7 +267,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração rundeck-config.properties, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/rundeck/rundeck-config.properties
+	nano /etc/rundeck/rundeck-config.properties
 echo -e "Rundeck instalado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

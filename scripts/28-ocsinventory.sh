@@ -439,28 +439,28 @@ sleep 5
 echo -e "Editando o arquivo de configuração z-ocsinventory-server.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/apache2/conf-available/z-ocsinventory-server.conf
+	nano /etc/apache2/conf-available/z-ocsinventory-server.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração zz-ocsinventory-restapi.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/apache2/conf-available/zz-ocsinventory-restapi.conf
+	nano /etc/apache2/conf-available/zz-ocsinventory-restapi.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração ocsinventory-reports.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/apache2/conf-available/ocsinventory-reports.conf
+	nano /etc/apache2/conf-available/ocsinventory-reports.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração dbconfig.inc.php, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /usr/share/ocsinventory-reports/ocsreports/dbconfig.inc.php
+	nano /usr/share/ocsinventory-reports/ocsreports/dbconfig.inc.php
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -469,7 +469,7 @@ echo -e "Editando o arquivo de configuração ocsinventory-server, pressione <En
 	# opção do comando read: -s (Do not echo keystrokes)
 	# opção do comando logrotate: -d (debug)
 	read -s
-	vim /etc/logrotate.d/ocsinventory-server
+	nano /etc/logrotate.d/ocsinventory-server
 	logrotate /etc/logrotate.d/ocsinventory-server -d &>> $LOG
 	systemctl restart apache2 &>> $LOG
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
@@ -513,21 +513,21 @@ sleep 5
 echo -e "Editando o arquivo de configuração ocsinventory-agent.cfg, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/ocsinventory-agent/ocsinventory-agent.cfg
+	nano /etc/ocsinventory-agent/ocsinventory-agent.cfg
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração modules.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/ocsinventory-agent/modules.conf
+	nano /etc/ocsinventory-agent/modules.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração ocsinventory-agent, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/cron.d/ocsinventory-agent
+	nano /etc/cron.d/ocsinventory-agent
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

@@ -168,7 +168,7 @@ echo -e "Instalando o KERBEROS, aguarde..."
 		echo -e "Editando o arquivo de configuração do KERBEROS, pressione <Enter> para continuar..."
 		read
 		sleep 3
-		vim /etc/krb5.conf
+		nano /etc/krb5.conf
 		echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 echo -e "KERBEROS instalado com sucesso!!!, continuando com o script..."
 sleep 5
@@ -191,7 +191,7 @@ echo -e "Atualizando as configurações do NTP Server, aguarde..."
 	echo -e "Editando o arquivo de configuração do NTP, pressione <Enter> para continuar..."
 		read
 		sleep 3
-		vim /etc/ntp.conf
+		nano /etc/ntp.conf
 	echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 	# opção do comando ntpdate: d (debug), q (query), u (unprivileged), v (verbose)
 	# opção do comando systemctl: start (start daemon - service)
@@ -217,7 +217,7 @@ echo -e "Atualizando as configurações do FSTAB, aguarde..."
 	echo -e "Editando o arquivo de configuração do FSTAB, pressione <Enter> para continuar..."
 		read
 		sleep 3
-		vim /etc/fstab
+		nano /etc/fstab
 		mount -o remount,rw /dev/sda2 &>> $LOG
 	echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 echo -e "Atualização do FSTAB feita com sucesso!!!, continuando com o script..."
@@ -231,7 +231,7 @@ echo -e "Atualizando as configurações do HOSTNAME, aguarde..."
 	echo -e "Editando o arquivo de configuração do HOSTNAME, pressione <Enter> para continuar..."
 		read
 		sleep 3
-		vim /etc/hostname
+		nano /etc/hostname
 	echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 echo -e "Atualização do HOSTNAME feita com sucesso!!!, continuando com o script..."
 sleep 5
@@ -244,7 +244,7 @@ echo -e "Atualizando as configurações do HOSTS, aguarde..."
 	echo -e "Editando o arquivo de configuração do HOSTS, pressione <Enter> para continuar..."
 		read
 		sleep 3
-		vim /etc/hosts
+		nano /etc/hosts
 	echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 echo -e "Atualização do HOSTS feita com sucesso!!!, continuando com o script..."
 sleep 5
@@ -259,7 +259,7 @@ echo -e "Atualizando as configurações do NSSWITCH, aguarde..."
 	echo -e "Editando o arquivo de configuração do NSSWITCH, pressione <Enter> para continuar..."
 		read
 		sleep 3
-		vim /etc/nsswitch.conf
+		nano /etc/nsswitch.conf
 	echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 echo -e "Atualização do NSSWITCH feita com sucesso!!!, continuando com o script..."
 sleep 5
@@ -281,7 +281,7 @@ echo -e "Atualizando as configurações do NETPLAN, aguarde..."
 	echo -e "Editando o arquivo de configuração do NETPLAN, pressione <Enter> para continuar..."
 		read
 		sleep 3
-		vim /etc/netplan/50-cloud-init.yaml
+		nano /etc/netplan/50-cloud-init.yaml
 		netplan --debug apply &>> $LOG
 	echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 echo -e "Atualização do NETPLAN feita com sucesso!!!, continuando com o script..."

@@ -249,7 +249,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração do Certificado do VSFTPd vsftpd.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/ssl/vsftpd.conf
+	nano /etc/ssl/vsftpd.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -343,7 +343,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração vsftpd.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/vsftpd.conf
+	nano /etc/vsftpd.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

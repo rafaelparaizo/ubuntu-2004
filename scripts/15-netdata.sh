@@ -225,7 +225,7 @@ echo -e "Editando o arquivo de monitoramento apache.conf, pressione <Enter> para
 	# opção do comando read: -s (Do not echo keystrokes)
 	# teste de debug: /usr/libexec/netdata/plugins.d/python.d.plugin debug apache
 	read -s
-	vim /usr/lib/netdata/conf.d/python.d/apache.conf
+	nano /usr/lib/netdata/conf.d/python.d/apache.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -233,7 +233,7 @@ echo -e "Editando o arquivo de monitoramento mysql.conf, pressione <Enter> para 
 	# opção do comando read: -s (Do not echo keystrokes)
 	# teste de debug: /usr/libexec/netdata/plugins.d/python.d.plugin debug mysql
 	read -s
-	vim /usr/lib/netdata/conf.d/python.d/mysql.conf
+	nano /usr/lib/netdata/conf.d/python.d/mysql.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -241,7 +241,7 @@ echo -e "Editando o arquivo de monitoramento isc_dhcpd.conf, pressione <Enter> p
 	# opção do comando read: -s (Do not echo keystrokes)
 	# teste de debug: /usr/libexec/netdata/plugins.d/python.d.plugin debug isc_dhcpd
 	read -s
-	vim /usr/lib/netdata/conf.d/python.d/isc_dhcpd.conf
+	nano /usr/lib/netdata/conf.d/python.d/isc_dhcpd.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -249,7 +249,7 @@ echo -e "Editando o arquivo de monitoramento tomcat.conf, pressione <Enter> para
 	# opção do comando read: -s (Do not echo keystrokes)
 	# teste de debug: /usr/libexec/netdata/plugins.d/python.d.plugin debug tomcat
 	read -s
-	vim /usr/lib/netdata/conf.d/python.d/tomcat.conf
+	nano /usr/lib/netdata/conf.d/python.d/tomcat.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -259,7 +259,7 @@ echo -e "Editando o arquivo de estatísticas bind_rndc.conf, pressione <Enter> p
 	# opção do comando chown: -v (verbose), :netdata (group netdata)
 	# teste de debug: /usr/libexec/netdata/plugins.d/python.d.plugin debug bind_rndc
 	read -s
-	vim /usr/lib/netdata/conf.d/python.d/bind_rndc.conf
+	nano /usr/lib/netdata/conf.d/python.d/bind_rndc.conf
 	chown -v :netdata /etc/bind/rndc.key &>> $LOG
 	rndc stats &>> $LOG
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
@@ -269,7 +269,7 @@ echo -e "Editando o arquivo de monitoramento dockerd.conf, pressione <Enter> par
 	# opção do comando read: -s (Do not echo keystrokes)
 	# teste de debug: /usr/libexec/netdata/plugins.d/python.d.plugin dockerd
 	read -s
-	vim /usr/lib/netdata/conf.d/python.d/dockerd.conf
+	nano /usr/lib/netdata/conf.d/python.d/dockerd.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -277,7 +277,7 @@ echo -e "Editando o arquivo de monitoramento elasticsearch.conf, pressione <Ente
 	# opção do comando read: -s (Do not echo keystrokes)
 	# teste de debug: /usr/libexec/netdata/plugins.d/python.d.plugin debug elasticsearch
 	read -s
-	vim /usr/lib/netdata/conf.d/python.d/elasticsearch.conf
+	nano /usr/lib/netdata/conf.d/python.d/elasticsearch.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -285,7 +285,7 @@ echo -e "Editando o arquivo de monitoramento mongodb.conf, pressione <Enter> par
 	# opção do comando read: -s (Do not echo keystrokes)
 	# teste de debug: /usr/libexec/netdata/plugins.d/python.d.plugin mongodb
 	read -s
-	vim /usr/lib/netdata/conf.d/python.d/mongodb.conf
+	nano /usr/lib/netdata/conf.d/python.d/mongodb.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -293,7 +293,7 @@ echo -e "Editando o arquivo de monitoramento redis.conf, pressione <Enter> para 
 	# opção do comando read: -s (Do not echo keystrokes)
 	# teste de debug: /usr/libexec/netdata/plugins.d/python.d.plugin debug redis
 	read -s
-	vim /usr/lib/netdata/conf.d/python.d/redis.conf
+	nano /usr/lib/netdata/conf.d/python.d/redis.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

@@ -141,7 +141,7 @@ mdadm -D -s
 mdadm -D -s >> /etc/mdadm/mdadm.conf
 
 # Editando o arquivo de configuração do mdadm.conf
-vim /etc/mdadm/mdadm.conf
+nano /etc/mdadm/mdadm.conf
 
 # Montando o disco do Array do RAID-1 manualmente com o comando mount
 # opção do comando mkdir: -v (verbose)
@@ -182,7 +182,7 @@ mount -l | grep /backup
 # Configurando o ponto de montagem automático do Array do RAID-1 e do Backup no arquivo Fstab
 # Material de apoio: https://www.guiafoca.org/guiaonline/intermediario/ch05s13.html#disc-fstab
 cp -v /etc/fstab /etc/fstab.bkp
-vim /etc/fstab
+nano /etc/fstab
 	#File System: partição do HD, o CD-ROM, disquete, pendrive ou pasta de rede a serem montados no boot
 	#Mount Point: local onde serão montadas as partições, dispositivos e pastas compartilhadas da rede
 	#Type: sistema de aquivos utilizado, mais comuns são: swap, ext4, ReiserFS, XFS, JFS, VFAT, NTFS, etc

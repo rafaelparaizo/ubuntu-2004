@@ -235,7 +235,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração do Certificado do Apache2 apache2.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/ssl/apache2.conf
+	nano /etc/ssl/apache2.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -338,7 +338,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração default-ssl.conf, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/apache2/sites-available/default-ssl.conf
+	nano /etc/apache2/sites-available/default-ssl.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

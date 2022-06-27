@@ -234,7 +234,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração do Certificado do Tomcat9 tomcat9.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/ssl/tomcat9.conf
+	nano /etc/ssl/tomcat9.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -366,7 +366,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração server.xml, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/tomcat9/server.xml
+	nano /etc/tomcat9/server.xml
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

@@ -209,7 +209,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração grafana-server, pressione <Enter> para continuar..."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/default/grafana-server
+	nano /etc/default/grafana-server
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

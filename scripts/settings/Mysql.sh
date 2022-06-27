@@ -54,9 +54,9 @@ sudo mysql_secure_installation
 #
 # Atualizando o arquivo de configuração do SGBD do MySQL ou MariaDB
 sudo cp -v /etc/mysql/mysql.conf.d/mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf.old
-sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 sudo cp -v /etc/mysql/mariadb.conf.d/50-server.cnf /etc/mysql/mariadb.conf.d/50-server.cnf.old
-sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 #
 # Verificando o Serviço do SGBD do MySQL ou MariaDB
 sudo systemctl status mysql

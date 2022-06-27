@@ -177,7 +177,7 @@ sleep 5
 #
 echo -e "Editando o arquivo do Virtual Host do Apache2 pti-intra.conf, Pressione <Enter> para continuar."
 	read
-	vim /etc/apache2/sites-available/pti-intra.conf
+	nano /etc/apache2/sites-available/pti-intra.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -209,7 +209,7 @@ sleep 2
 #
 echo -e "Editando o arquivo de atualização do Certificado do Certbot, Pressione <Enter> para continuar."
 	read
-	#vim /etc/cron.d/
+	#nano /etc/cron.d/
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

@@ -208,28 +208,28 @@ sleep 5
 echo -e "Editando o arquivo de configuração idmapd.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/idmapd.conf
+	nano /etc/idmapd.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração exports, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/exports
+	nano /etc/exports
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração nfs-kernel-server, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)echo -e "NFS: 
 	read -s
-	vim /etc/default/nfs-kernel-server
+	nano /etc/default/nfs-kernel-server
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração hosts.allow, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/hosts.allow
+	nano /etc/hosts.allow
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

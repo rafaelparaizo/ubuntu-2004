@@ -236,7 +236,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração do owncloud.conf, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/apache2/sites-available/owncloud.conf
+	nano /etc/apache2/sites-available/owncloud.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -244,7 +244,7 @@ echo -e "Editando as configurações do PHP php.ini, pressione <Enter> para cont
 	# opção do comando: &>> (redirecionar a saída padrão)
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/php/7.4/apache2/php.ini
+	nano /etc/php/7.4/apache2/php.ini
 echo -e "Arquivo do PHP editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

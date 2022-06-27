@@ -275,14 +275,14 @@ sleep 5
 echo -e "Editando o arquivo de configuração elasticsearch.yml, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/elasticsearch/elasticsearch.yml
+	nano /etc/elasticsearch/elasticsearch.yml
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração jvm.options, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/elasticsearch/jvm.options
+	nano /etc/elasticsearch/jvm.options
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -319,7 +319,7 @@ sleep 5
 echo -e "Editando o arquivo de configuração server.conf, pressione <Enter> para editar..."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/graylog/server/server.conf
+	nano /etc/graylog/server/server.conf
 echo -e "Arquivo do editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

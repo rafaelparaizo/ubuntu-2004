@@ -34,17 +34,17 @@
 #
 #
 # Alterando o nome do servidor
-sudo vim /etc/hostname
+sudo nano /etc/hostname
 #
 # Adicionando as informações de pesquisa de IP e nome no servidor
-sudo vim /etc/hosts
+sudo nano /etc/hosts
 #
 # Verificando a forma de consulta de nomes no servidor
-sudo vim /etc/nsswitch.conf
+sudo nano /etc/nsswitch.conf
 #
 # Configurando a segurança de acesso remoto do servidor
-sudo vim /etc/hosts.allow
-sudo vim /etc/hosts.deny
+sudo nano /etc/hosts.allow
+sudo nano /etc/hosts.deny
 #
 # Reinicializando o servidor
 sudo reboot

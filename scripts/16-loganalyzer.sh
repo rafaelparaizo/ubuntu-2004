@@ -291,14 +291,14 @@ sleep 5
 echo -e "Editando o arquivo de configuração rsyslog.conf, Pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/rsyslog.conf
+	nano /etc/rsyslog.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração mysql.conf, Pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/rsyslog.d/mysql.conf
+	nano /etc/rsyslog.d/mysql.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -311,7 +311,7 @@ sleep 5
 echo -e "Editando o arquivo de Virtual Host loganalyzer.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/apache2/sites-available/loganalyzer.conf
+	nano /etc/apache2/sites-available/loganalyzer.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

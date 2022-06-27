@@ -249,7 +249,7 @@ echo -e "Editando o arquivo de configuração deployment.yml, aguarde..."
 	# opção do comando read: -s (Do not echo keystrokes)
 	# opção do comando su: - (login), -c (command)
 	read -s
-	su - $NETDISCOUSER -c "vim /home/netdisco/environments/deployment.yml"
+	su - $NETDISCOUSER -c "nano /home/netdisco/environments/deployment.yml"
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

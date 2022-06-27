@@ -180,21 +180,21 @@ sleep 5
 echo -e "Editando o arquivo de configuração hostname, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/hostname
+	nano /etc/hostname
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração hosts, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/hosts
+	nano /etc/hosts
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração nsswitch.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/nsswitch.conf
+	nano /etc/nsswitch.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -237,14 +237,14 @@ sleep 5
 echo -e "Editando o arquivo de configuração named.conf, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/bind/named.conf
+	nano /etc/bind/named.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração named.conf.local, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/bind/named.conf.local
+	nano /etc/bind/named.conf.local
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -252,7 +252,7 @@ echo -e "Editando o arquivo de configuração named.conf.options, pressione <Ent
 	# opção do comando: &>> (redirecionar a saída padrão)
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/bind/named.conf.options
+	nano /etc/bind/named.conf.options
 	named-checkconf &>> $LOG
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
@@ -261,14 +261,14 @@ echo -e "Editando o arquivo de configuração named.conf.default-zones, pression
 	# opção do comando: &>> (redirecionar a saída padrão)
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/bind/named.conf.default-zones
+	nano /etc/bind/named.conf.default-zones
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração rndc.key, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/bind/rndc.key
+	nano /etc/bind/rndc.key
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -276,7 +276,7 @@ echo -e "Editando o arquivo de configuração pti.intra.hosts, pressione <Enter>
 	# opção do comando: &>> (redirecionar a saída padrão)
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /var/lib/bind/pti.intra.hosts
+	nano /var/lib/bind/pti.intra.hosts
 	named-checkzone $DOMAIN /var/lib/bind/pti.intra.hosts &>> $LOG
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
@@ -285,7 +285,7 @@ echo -e "Editando o arquivo de configuração 172.16.1.rev, pressione <Enter> pa
 	# opção do comando: &>> (redirecionar a saída padrão)
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /var/lib/bind/172.16.1.rev
+	nano /var/lib/bind/172.16.1.rev
 	named-checkzone $DOMAINREV /var/lib/bind/172.16.1.rev &>> $LOG
 	named-checkzone $NETWORK /var/lib/bind/172.16.1.rev &>> $LOG
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
@@ -294,21 +294,21 @@ sleep 5
 echo -e "Editando o arquivo de configuração named, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/default/named
+	nano /etc/default/named
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração dnsupdate-cron, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/cron.d/dnsupdate-cron
+	nano /etc/cron.d/dnsupdate-cron
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração rndcupdate-cron, pressione <Enter> para continuar."
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/cron.d/rndcupdate-cron
+	nano /etc/cron.d/rndcupdate-cron
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -317,7 +317,7 @@ echo -e "Editando o arquivo de configuração rndcstats, pressione <Enter> para 
 	# opção do comando read: -s (Do not echo keystrokes)
 	# opção do comando logrotate: -d (debug)
 	read -s
-	vim /etc/logrotate.d/rndcstats
+	nano /etc/logrotate.d/rndcstats
 	logrotate /etc/logrotate.d/rndcstats -d &>> $LOG
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5

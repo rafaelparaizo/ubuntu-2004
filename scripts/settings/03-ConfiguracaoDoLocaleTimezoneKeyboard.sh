@@ -34,7 +34,7 @@ sudo timedatectl set-timezone "America/Sao_Paulo"
 # mais no Brasil
 sudo cat /etc/timezone
 sudo cat /etc/systemd/timesyncd.conf
-sudo vim /etc/systemd/timesyncd.conf
+sudo nano /etc/systemd/timesyncd.conf
 	[Time]
 	NTP=a.st1.ntp.br
 	FallbackNTP=a.ntp.br

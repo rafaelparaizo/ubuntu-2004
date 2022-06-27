@@ -271,21 +271,21 @@ sleep 5
 echo -e "Editando o arquivo de configuração guacamole.properties, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/guacamole/guacamole.properties
+	nano /etc/guacamole/guacamole.properties
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração user-mapping.xml, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/guacamole/user-mapping.xml
+	nano /etc/guacamole/user-mapping.xml
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração tomcat9, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/default/tomcat9
+	nano /etc/default/tomcat9
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

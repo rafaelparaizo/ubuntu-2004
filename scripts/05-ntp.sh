@@ -47,7 +47,7 @@
 #	sudo ntpdate -dquv ntp.pti.intra (update date and time via NTP)
 #	sudo ntpq -pn (standard NTP query program)
 #	sudo ntpq -c sysinfo (standard NTP query program)
-#	sudo vim /etc/systemd/timesyncd.conf (Network Time Synchronization configuration files)
+#	sudo nano /etc/systemd/timesyncd.conf (Network Time Synchronization configuration files)
 #	sudo systemctl restart systemd-timesyncd (Daemon for synchronizing the system clock across the network)
 #	sudo timedatectl (Control the system time and date)
 #	sudo timedatectl show (Control the system time and date)
@@ -241,28 +241,28 @@ sleep 5
 echo -e "Editando o arquivo de configuração ntp.conf, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/ntp.conf
+	nano /etc/ntp.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração ntp, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/default/ntp
+	nano /etc/default/ntp
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração ntpdate, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/default/ntpdate
+	nano /etc/default/ntpdate
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Editando o arquivo de configuração dhcpd.conf, pressione <Enter> para continuar"
 	# opção do comando read: -s (Do not echo keystrokes)
 	read -s
-	vim /etc/dhcp/dhcpd.conf
+	nano /etc/dhcp/dhcpd.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #

@@ -372,7 +372,7 @@ echo -e "Editando o arquivo de configuração: nginx.conf, Pressione <Enter> par
 	# opção do comando sleep: 3 (seconds)
 	read
 	sleep 3
-	vim /etc/nginx/nginx.conf
+	nano /etc/nginx/nginx.conf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -380,7 +380,7 @@ echo -e "Editando o arquivo de configuração: default, Pressione <Enter> para c
 	# opção do comando sleep: 3 (seconds)
 	read
 	sleep 3
-	vim /etc/nginx/sites-available/default
+	nano /etc/nginx/sites-available/default
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -397,7 +397,7 @@ echo -e "Editando o arquivo de configuração: php.ini, Pressione <Enter> para c
 	# opção do comando sleep: 3 (seconds)
 	read
 	sleep 3
-	vim /etc/php/7.2/fpm/php.ini
+	nano /etc/php/7.2/fpm/php.ini
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
@@ -429,7 +429,7 @@ echo -e "Editando o arquivo de configuração: 50-server.cnf, Pressione <Enter> 
 	# opção do comando sleep: 3 (seconds)
 	read
 	sleep 3
-	vim /etc/mysql/mariadb.conf.d/50-server.cnf
+	nano /etc/mysql/mariadb.conf.d/50-server.cnf
 echo -e "Arquivo editado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
